@@ -3,7 +3,7 @@
 ## 📋 Prosjektbeskrivelse
 OOP-prosjekt våren 2026: System for utleie av gjenstander (traller, sykler, elsparkesykler) i en fornøyelsespark.
 
-## 👥 Gruppemedlemmer
+## Gruppemedlemmer
 - Phong Nguyen - phong@student.ntnu.no - 134599
 
 ## 📁 Filstruktur
@@ -39,7 +39,7 @@ OOP-prosjekt våren 2026: System for utleie av gjenstander (traller, sykler, els
 - `KUNDER.DTA` - Lagring av kundedata
 - `STEDER.DTA` - Lagring av steddata
 
-## 🚀 Kompilering
+## Kompilering
 
 ### Windows (MinGW):
 ```bash
@@ -59,7 +59,7 @@ make
 ./prosjekt
 ```
 
-## 📝 Kommandoer
+## Kommandoer
 
 ### Kunde-kommandoer:
 - `K N` - Ny kunde
@@ -86,7 +86,7 @@ make
 ### System:
 - `Q` - Quit (avslutt og lagre)
 
-## 💰 Priser
+## Priser
 
 | Gjenstand | Basispris | Med tillegg |
 |-----------|-----------|-------------|
@@ -94,7 +94,7 @@ make
 | Sykkel | 100 kr | 150 kr (m/tilhenger) |
 | Elsparkesykkel | 120 kr (100W) | 180 kr (200W) |
 
-## 📊 Datastruktur
+## Datastruktur
 
 ```
 Kunder (global)
@@ -119,7 +119,7 @@ Utleiesteder (global)
         └── vector<Elsparkesykkel*>
 ```
 
-## 🧪 Testdata
+## Testdata
 
 Programmet kommer med obligatoriske testdata:
 
@@ -131,7 +131,7 @@ Programmet kommer med obligatoriske testdata:
 - **Bod1**: 2 av hver type (6 gjenstander totalt)
 - **Bod2**: 4 av hver type (12 gjenstander totalt)
 
-## 📅 Tidsplan
+## Tidsplan
 
 - [x] Oppsett av repository
 - [ ] Grunnleggende klasser (Gjenstand, Tralle, Sykkel, Elsparkesykkel)
@@ -143,18 +143,18 @@ Programmet kommer med obligatoriske testdata:
 - [ ] Dokumentasjon
 - [ ] Innlevering (7. april 2026 kl. 11:00)
 
-## ⚠️ Viktig
+## Viktig
 
 - Alt må ligge i samme katalog på GitHub
 - Lever SSH-adresse i Blackboard
 - Test ved å clone til ny katalog
 - Følg norske klassenavn (Gjenstand, ikke Item)
 
-## 📖 Referanser
+## Referanser
 
 - Oppgavetekst: `prosjektV26.pdf`
 - Datastruktur: `datastruktur.pdf`
 - Testdata: `testdata.pdf`
 - Sjekkliste: `sjekkliste.pdf`
 
-**Lykke til! 🚀**
+
