@@ -181,9 +181,9 @@ void stedIgjen() {
     GjenstandType gtype;
     
     switch (type) {
-        case 'T': gtype = GjenstandType::Tralle; break;
-        case 'S': gtype = GjenstandType::Sykkel; break;
-        case 'E': gtype = GjenstandType::Elsparkesykkel; break;
+        case 'T': gtype = TRALLE; break;
+        case 'S': gtype = SYKKEL; break;
+        case 'E': gtype = ELSPARKESYKKEL; break;
         default:
             cout << "\nUgyldig type!\n";
             return;

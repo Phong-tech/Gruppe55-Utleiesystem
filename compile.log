@@ -1,0 +1,12 @@
+g++ -std=c++11 -Wall -Wextra -c main.cpp -o main.o
+g++ -std=c++11 -Wall -Wextra -c Funksjoner.cpp -o Funksjoner.o
+g++ -std=c++11 -Wall -Wextra -c Gjenstand.cpp -o Gjenstand.o
+g++ -std=c++11 -Wall -Wextra -c Tralle.cpp -o Tralle.o
+g++ -std=c++11 -Wall -Wextra -c Sykkel.cpp -o Sykkel.o
+g++ -std=c++11 -Wall -Wextra -c Elsparkesykkel.cpp -o Elsparkesykkel.o
+g++ -std=c++11 -Wall -Wextra -c Kunde.cpp -o Kunde.o
+g++ -std=c++11 -Wall -Wextra -c Kunder.cpp -o Kunder.o
+g++ -std=c++11 -Wall -Wextra -c Sted.cpp -o Sted.o
+g++ -std=c++11 -Wall -Wextra -c Utleiesteder.cpp -o Utleiesteder.o
+g++ -std=c++11 -Wall -Wextra -c LesData3.cpp -o LesData3.o
+g++ -std=c++11 -Wall -Wextra -o prosjekt main.o Funksjoner.o Gjenstand.o Tralle.o Sykkel.o Elsparkesykkel.o Kunde.o Kunder.o Sted.o Utleiesteder.o LesData3.o
